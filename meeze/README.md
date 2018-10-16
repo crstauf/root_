@@ -4,7 +4,7 @@ _Daily plans and recaps for development team members._
 
 ## How to add
 
-1. Go to gist.github.com.
+1. Go to [gist.github.com](https://gist.github.com/).
 1. Type `daily-plans.md` into the filename field.
 1. Click _Add file_ button.
 1. Type `daily-recaps.md` into the filename field.
