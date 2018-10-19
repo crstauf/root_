@@ -1,35 +1,33 @@
 # `if`
 
-- always use [Yoda conditions](https://en.m.wikipedia.org/wiki/Yoda_conditions): `'foo' === $bar`
 - default to using strict comparison (`===`), not loose comparison (`==`)
+- always use [Yoda conditions](https://en.m.wikipedia.org/wiki/Yoda_conditions): `'foo' === $bar`
 
-## Negation
+## Negation Evaluation
 ```
 if ( !$foo )
 	return $bar;
 ```
 
-## Short
+## Short Conditional
 ```
 if ( 'foo' === $bar )
 	return $bar;
 ```
 
-## Short Two
+## Short Assignment
 ```
-$bar = 'a' === $foo
-	? 'aaa'
-	: 'bbb';
+$bar = ( 'a' === $foo ? 'aaa' : 'bbb' );
 ```
 
-## Short Multiple
+## Short, Multiple Conditionals
 ```
 'a' === $foo && $bar = 'aaa';
 'b' === $foo && $bar = 'bbb';
 'c' === $foo && $bar = 'ccc';
 ```
 
-## Long
+## Long Conditional
 ```
 if ( 'bar' === $foo ) {
 	$bar = 'foo';
@@ -37,10 +35,10 @@ if ( 'bar' === $foo ) {
 }
 ```
 
-## Simple Inline
+## Simple, Inline Conditional
 `( true === $foo ? 'aaa' : 'bbb' )`
 
-## Complex Inline
+## Complex, Inline Conditional
 ```
 (
 	(

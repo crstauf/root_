@@ -13,6 +13,6 @@ if (
 	...
 }
 
-add_action( 'init',    'calyx_frontpage_action__init' );
+add_action( 'init',    'calyx_frontpage_action__init'    );
 add_action( 'wp_head', 'calyx_frontpage_action__wp_head' );
 ```
