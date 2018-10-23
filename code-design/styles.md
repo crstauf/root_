@@ -49,7 +49,7 @@ When adding a definition with additional specificity on the previous selector, n
 	display: block
 }
 
-	// the order may need to change based on the cascade
+	/* the order may need to change based on the cascade */
 	.foo:hover {
 		color: #fff;
 	}
