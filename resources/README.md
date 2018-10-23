@@ -19,5 +19,6 @@
 |Name|Description|
 |---|---|
 |[Codename Generator](http://projectcodename.com/)|Project name generator|
+|[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests.|
 |[Use A Passphrase](https://www.useapassphrase.com/)|Secure password generator|
 |[WebPageTest](https://webpagetest.org)|Page performance|
