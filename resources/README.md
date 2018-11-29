@@ -19,6 +19,8 @@
 ## Web Apps
 |Name|Description|
 |---|---|
+|[CloudApp](https://www.getcloudapp.com/)|Screen capture service|
+|[CloudUp](https://cloudup.com)|Screen capture service by Automattic|
 |[Codename Generator](http://projectcodename.com/)|Project name generator|
 |[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests.|
 |[Use A Passphrase](https://www.useapassphrase.com/)|Secure password generator|
