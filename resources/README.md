@@ -7,6 +7,7 @@
 |[Atom](https://atom.io/)|Hackable editor|
 |[Bee](https://www.neat.io/bee/)|Git issue and PR tracker|
 |[Brandy](https://getbrandy.io)|Brand asset manager for macOS menu bar|
+|[Contraste](https://contrasteapp.com/)|Grade contrast between two colors (for accessibility)|
 |[ImageAlpha](https://pngmini.com/)|PNG optimization|
 |[ImageOptim](https://imageoptim.com/mac)|Image optimization|
 |[PixelSnap](https://getpixelsnap.com/)|Measure everything|
