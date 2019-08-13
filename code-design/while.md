@@ -4,19 +4,22 @@
 - default to using strict comparison (`===`), not loose comparison (`==`)
 
 ## Negation
-```
+
+```php
 while ( !$foo )
 	$foo--;
 ```
 
 ## Short
-```
+
+```php
 while ( 'foo' === $bar )
 	$foo++;
 ```
 
 ## Long
-```
+
+```php
 while ( 'bar' === $foo ) {
 	$bar = 'foo';
 	$foo = $bar . $foo;

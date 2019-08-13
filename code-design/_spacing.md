@@ -24,11 +24,15 @@ add_action( 'wp_head', 'calyx_frontpage_action__wp_head' );
 ```
 
 ### String Concatenation
+
 ```php
 echo 'Hello, ' . $foo . ' world!';
 ```
 
 ### `if` Conditionals
+
+(also see [`if` document](if.md}))
+
 ```php
 if ( $foo ) {
 	...
@@ -36,6 +40,7 @@ if ( $foo ) {
 ```
 
 ### Function Parameters
+
 ```php
 function foo( $bar ) {
 	...
@@ -47,7 +52,8 @@ function foo( $bar ) use( $zulu ) {
 ```
 
 ### CSS Properties
-(also see [_Styles_](styles.md}) document)
+
+(also see [_Styles_ document](styles.md}))
 
 In general, add spaces after parentheses and commas, and one empty line break between definitions.
 

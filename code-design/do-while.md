@@ -4,6 +4,7 @@
 - default to using strict comparison (`===`), not loose comparison (`==`)
 
 ## Negation
+
 ```
 do {
 	...
@@ -11,6 +12,7 @@ do {
 ```
 
 ## Short
+
 ```
 do {
 	...
@@ -18,6 +20,7 @@ do {
 ```
 
 ## Long
+
 ```
 do {
 	...
