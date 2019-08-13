@@ -22,6 +22,7 @@
 |[CloudApp](https://www.getcloudapp.com/)|Screen capture service|
 |[CloudUp](https://cloudup.com)|Screen capture service by Automattic|
 |[Codename Generator](http://projectcodename.com/)|Project name generator|
+|[joe schmoe](https://joeschmoe.io/)|An illustrated avatar collection for developers and designers|
 |[Noisli](https://www.noisli.com/)|Mix different sounds and create your perfect environment|
 |[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests|
 |[Use A Passphrase](https://www.useapassphrase.com/)|Secure password generator|
