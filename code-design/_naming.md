@@ -11,8 +11,8 @@ Naming is equally fun and challenging, mostly art with a bit of intelligence. We
 |3. Consistency|Code that follows a consistent naming syntax is more easily read, understood, and navigated.|
 
 ## Hierarchy of Separators
-*(from bottom to top)*
 
+*(from bottom to top)*
 - camel case (`camelCase`)
 - underscore (`_`)
 - dash (`-`)
@@ -26,8 +26,16 @@ Naming is equally fun and challenging, mostly art with a bit of intelligence. We
 - use a single underscore if you're already using dashes
 - in some situations, camel case is more readable than lots of underscores
 
+## WordPress Hook Callbacks
+
+In general, callbacks for WordPress hooks should use the following format:`{hook type}__{hook name}`.
+
 ## Examples
 
+- `add_action( 'init', array( $this, 'action__init' ) )`
+- `add_filter( 'request', array( $this, 'filter__request' ) )`
+- `add_action( THEME_PREFIX . '/init', array( $this, 'action__theme_init' ) )`
+- `add_action( THEME_PREFIX . '/init', array( $this, 'action__theme_init__15' ), 15 )`
 - `icon--social-google_plus.svg`
 - `icon--social-facebook.svg`
 - `calyx_inlineScript_jqueryCore()`
