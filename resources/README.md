@@ -14,10 +14,11 @@
 |[Transmit](https://panic.com/transmit/)|Premium (s)FTP client|
 |[Working Copy](https://workingcopyapp.com/)|Git GUI for iOS|
 
-## Snippets
+## Scripts and Snippets
 |Name|Description|
 |---|---|
 |[cleave.js](https://nosir.github.io/cleave.js/)|Format your `<input/>` content when you are typing|
+|[Commento](https://commento.io/)|A fast, privacy-focused commenting platform|
 
 ## Web Apps
 |Name|Description|
