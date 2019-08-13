@@ -3,7 +3,7 @@
 ## Apps
 |Name|Description|
 |---|---|
-|[Atom](https://atom.io/)|Hackable editor|
+|[Atom](atom-editor.md)|Hackable editor|
 |[Brandy](https://getbrandy.io)|Brand asset manager for macOS menu bar|
 |[Contraste](https://contrasteapp.com/)|Grade contrast between two colors (for accessibility)|
 |[ImageAlpha](https://pngmini.com/)|PNG optimization|
