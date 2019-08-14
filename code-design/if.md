@@ -2,6 +2,54 @@
 
 - default to using strict comparison (`===`), not loose comparison (`==`)
 - always use [Yoda conditions](https://en.m.wikipedia.org/wiki/Yoda_conditions): `'foo' === $bar`
+- it is preferable to "return early" ([read](https://blog.timoxley.com/post/47041269194/avoid-else-return-early)) within a function rather than introducing multiple levels of nesting
+
+The following examples are allowed within code design standards, however, one variation may be easier to read within it's context than another; always consider which is more readable.
+
+## Multiple Conditionals
+```php
+if (
+	   'a' === $foo
+	&& 'b' === $bar
+	&& 'c' === $zulu
+) {
+	...
+}
+
+// It is usually possible to simplify
+// the below statement, but it is permitted.
+
+if (
+	(
+		   'a' === $foo
+		&& 'b' === $bar
+	)
+	|| 'c' === $zulu
+) {
+	...
+}
+```
+
+## Checking for Multiple Values
+
+Instead of doing something like this:
+
+```php
+if (
+	   1 === $foo
+	|| 2 === $foo
+) {
+	...
+}
+```
+
+use `in_array()` instead:
+
+```php
+if ( in_array( $foo, array( 1, 2 ), true ) ) {
+	...
+}
+```
 
 ## Negation Evaluation
 
@@ -36,6 +84,7 @@ $bar = ( 'a' === $foo ? 'aaa' : 'bbb' );
 ```php
 if ( 'bar' === $foo ) {
 	$bar = 'foo';
+	...
 	return $bar . $foo;
 }
 ```
@@ -46,7 +95,7 @@ if ( 'bar' === $foo ) {
 ( true === $foo ? 'aaa' : 'bbb' )
 ```
 
-## Complex, Inline Conditional
+## Multiple Inline Conditional Statements
 
 ```php
 (
