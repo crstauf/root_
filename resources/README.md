@@ -35,8 +35,8 @@
 |[jsonbox.io](https://jsonbox.io/)|Lets you store, read & modify JSON data over HTTP APIs for free|
 |[Miro](https://miro.com/)|Online collaborative whiteboarding
 platform|
-|[Programming Fonts](https://app.programmingfonts.org/)|Test drive all the free programming fonts|
 |[Noisli](https://www.noisli.com/)|Mix different sounds and create your perfect environment|
+|[Programming Fonts](https://app.programmingfonts.org/)|Test drive all the free programming fonts|
 |[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests|
 |[Serveo](http://serveo.net/)|Expose local servers to the internet|
 |[Use A Passphrase](https://www.useapassphrase.com/)|Secure password generator|
