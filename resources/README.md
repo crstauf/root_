@@ -31,6 +31,7 @@
 |[Font Style Matcher](https://meowni.ca/font-style-matcher/)|Awesome tool for matching your fallback and custom fonts|
 |[Input Type Sandbox](https://inputtypes.com/)|Test input types, onscreen keyboards and more|
 |[joe schmoe](https://joeschmoe.io/)|An illustrated avatar collection for developers and designers|
+|[JSON Placeholder](https://jsonplaceholder.typicode.com/)|Fake online REST API for testing and prototyping|
 |[Programming Fonts](https://app.programmingfonts.org/)|Test drive all the free programming fonts|
 |[Noisli](https://www.noisli.com/)|Mix different sounds and create your perfect environment|
 |[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests|
