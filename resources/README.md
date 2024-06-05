@@ -36,6 +36,7 @@
 |[Miro](https://miro.com/)|Online collaborative whiteboarding
 platform|
 |[Noisli](https://www.noisli.com/)|Mix different sounds and create your perfect environment|
+|[Optimal Overlay Finder](https://codepen.io/yaphi1/full/oNbEqGV)|Find the optimal opacity of overlay for contrast|
 |[Programming Fonts](https://app.programmingfonts.org/)|Test drive all the free programming fonts|
 |[Reqres](https://reqres.in/)|A hosted REST-API ready to respond to your AJAX requests|
 |[Serveo](http://serveo.net/)|Expose local servers to the internet|
